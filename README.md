@@ -49,13 +49,12 @@ $ pip install -r requirements.txt
 Create a **.env** file in the root directory and add the following:
 ```
 MONGO_URI=mongodb+srv://your_username:your_password@cluster0.mongodb.net/movieDB?retryWrites=true&w=majority
-FLASK_DEBUG=True
 ```
 Replace **your_username**, **your_password**, and **movieDB** with your actual MongoDB Atlas credentials.
 
 ### 5️⃣ Run the Application
 ```sh
-$ flask run
+$ python app.py
 ```
 The app will be available at **http://127.0.0.1:5000/**
 
@@ -79,6 +78,8 @@ POST /upload
 ### 🔹 Get Movies
 ```
 GET /movies?page=1&limit=10&year=2023&language=English&sort_by=release_date&order=asc
+or
+GO TO HOMEPAGE THEN THERE IS ROUTE NAME MOVIES
 ```
 - **Description:** Retrieves movies with pagination, sorting, and filtering.
 - **Query Params:**
