@@ -29,8 +29,8 @@ Follow these steps to set up the project on your local machine:
 
 ### 1️⃣ Clone the Repository
 ```sh
-$ git clone https://github.com/your-username/Movie-Data-API.git
-$ cd Movie-Data-API
+$ git clone https://github.com/mohitsinghgarry/FilmFlow.git
+$ cd FilmFlow
 ```
 
 ### 2️⃣ Set Up a Virtual Environment
@@ -49,6 +49,7 @@ $ pip install -r requirements.txt
 Create a **.env** file in the root directory and add the following:
 ```
 MONGO_URI=mongodb+srv://your_username:your_password@cluster0.mongodb.net/movieDB?retryWrites=true&w=majority
+UPLOAD_FOLDER=uploads
 ```
 Replace **your_username**, **your_password**, and **movieDB** with your actual MongoDB Atlas credentials.
 
@@ -94,6 +95,7 @@ GO TO HOMEPAGE THEN THERE IS ROUTE NAME MOVIES
 [
     {
         "title": "Movie Title",
+        "status": "released",
         "year": "2023",
         "languages": ["English", "French"],
         "release_date": "2023-05-20"
@@ -105,10 +107,10 @@ GO TO HOMEPAGE THEN THERE IS ROUTE NAME MOVIES
 ## 📸 Screenshots
 
 ### 🔹 Upload Page
-![Upload Page](screenshots/upload.png)
+![Upload Page](/public/upload.png)
 
 ### 🔹 Movie List Page
-![Movie List](screenshots/movies.png)
+![Movie List](/public/movies.png)
 
 ---
 ## 🤝 Contributing
