@@ -13,7 +13,7 @@ An advanced Flask-based web application that allows users to **upload CSV files 
 ---
 ## 📂 Folder Structure
 ```
-📦 Movie-Data-API
+📦 FilmFlow
  ┣ 📂 templates        # HTML templates for UI
  ┣ 📂 uploads          # Folder to store uploaded CSV files
  ┣ 📜 app.py           # Main Flask application
